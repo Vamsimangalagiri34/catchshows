@@ -149,7 +149,7 @@ padding:6px;
             <div class='cd'> <a href="index.jsp"><span class="logo">Catch My <span id="show">show</span> </span></a></div>
             <div class="sbd">
                 <div class="sbw">
-                era 34
+
                     <form action="SearchBar" method="post" onsubmit="validate()">
                     <div class="df">
 
