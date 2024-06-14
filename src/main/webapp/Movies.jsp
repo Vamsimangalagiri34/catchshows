@@ -95,7 +95,7 @@
                                 <div class="card">
                                     <a href='theater.jsp?mid=<%= mid%>' target="_blank">
                                         <img src="movies-imgs/<%=fname%>" class="card-img-top" alt="...">
-                                        <h5 class="card-title"><center><%=mname%></center></h5>
+                                        <h5 class="card-title" id="mname"><center><%=mname%></center></h5>
                                     </a>
                                 </div>
                             </div>
@@ -109,6 +109,8 @@
             %>
         </div>
     </div>
+
+
 </body>
 
 </html>
