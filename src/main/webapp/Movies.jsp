@@ -9,6 +9,8 @@
   <title>Catch My show</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
   <style>
     .card {
       border: none;
@@ -75,6 +77,10 @@
    display:flex;
 
    }
+   .card-title{
+   text-align:center;
+   font-weight:500;
+   }
   </style>
 </head>
 <body>
@@ -95,7 +101,7 @@
                                 <div class="card">
                                     <a href='theater.jsp?mid=<%= mid%>' target="_blank">
                                         <img src="movies-imgs/<%=fname%>" class="card-img-top" alt="...">
-                                        <h5 class="card-title" id="mname"><center><%=mname%></center></h5>
+                                        <h6 class="card-title" id="mname"><center><%=mname%></center></h5>
                                     </a>
                                 </div>
                             </div>
